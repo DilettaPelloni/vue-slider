@@ -61,6 +61,9 @@ createApp({
             else {
                 return '';
             }
+        },
+        select: function(index) {
+            this.current = index;
         }
     }
 }).mount('#app')
